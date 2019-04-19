@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/noavatar" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/imgProfile"
+        android:hint="Contact Name"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvName"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Phone no"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvPhone"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Email"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEmail"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Address"
+        android:textSize="15sp"
+        />
+   </RelativeLayout>
